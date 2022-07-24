@@ -1,0 +1,49 @@
+.container-block {
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	background: grey;
+}
+.left-block {
+	width: 570px;
+	height: 225px;
+	background: yellow;
+	display: inline-block;
+	margin-right: 29px;
+}
+.right-block {
+	width: 570px;
+	height: 225px;
+	background: blue;
+	display: inline-block;
+}
+
+
+/*fonts - qartuli*/
+
+.title-fonts {
+	margin-top: 50px;
+	font-weight: 900;
+	font-style: italic;
+}
+.geo-absolute {
+ font-family: "BPG Nino Mtavruli Bold", sans-serif;
+ margin: 20px 0;
+}
+.geo-relative {
+ font-family: 'ALK Rex Bold';
+ margin: 30px 0;
+}
+
+/*fonts - latin*/
+.latin-absolute {
+font-family: 'Poppins', sans-serif;
+margin: 20px 0;
+line-height: 30px;
+text-transform: uppercase;
+text-indent: 30px;
+letter-spacing: 0px;
+}
+.latin-relative {
+font-family: 'Poppins';
+}
