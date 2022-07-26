@@ -1,49 +1,158 @@
+/* Part 1 */
+
 .container-block {
-	width: 1170px;
-	margin-left: auto;
-	margin-right: auto;
-	background: grey;
+    width: 1088px;
+    margin: 0 auto;
 }
-.left-block {
-	width: 570px;
-	height: 225px;
-	background: yellow;
-	display: inline-block;
-	margin-right: 29px;
+
+.main-title {
+    width: 498px;
+    margin-top: 82px;
+}
+.blocks {
+    margin: 50px 0 102px;
+}
+.top-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 8px;
+ }
+ .main-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 52px;
+ }
+.block-image{
+    margin-right: 16px;
+    vertical-align: middle;
+    width: 168px;
+    height: 190px;
+ }
+ .block-frame {
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .left-block{
+    width: 536px;
+    display: inline-block;
+    margin-right: 16px;
+    background: #F8F8F8;
+ }
+ .middle-block {
+    width: 536px;
+    display: inline-block;
+    background: #BE2B2B;
 }
 .right-block {
-	width: 570px;
-	height: 225px;
-	background: blue;
-	display: inline-block;
+    width: 536px;
+    display: inline-block;
+    background: #BE2B2B;
+}
+ .box-text1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #5863F8;
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+.box-text2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.box-text3 {
+    font-family: 'Poppins';
+    vertical-align: middle;
+    font-size: 14px;
+    width: 260px;
+    display: inline-block;
+    color: #B1B1B1;
+    text-align: left;
+    line-height: 21px;
+    font-weight: 100;
 }
 
 
-/*fonts - qartuli*/
+/*________________________________________________________*/
 
-.title-fonts {
-	margin-top: 50px;
-	font-weight: 900;
-	font-style: italic;
-}
-.geo-absolute {
- font-family: "BPG Nino Mtavruli Bold", sans-serif;
- margin: 20px 0;
-}
-.geo-relative {
- font-family: 'ALK Rex Bold';
- margin: 30px 0;
-}
 
-/*fonts - latin*/
-.latin-absolute {
-font-family: 'Poppins', sans-serif;
-margin: 20px 0;
-line-height: 30px;
-text-transform: uppercase;
-text-indent: 30px;
-letter-spacing: 0px;
+
+/* Part 2 */
+
+
+.main-title1 {
+    width: 498px;
+    margin-top: 82px;
 }
-.latin-relative {
-font-family: 'Poppins';
-}
+.top-text1 {
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size: 20px;
+    color: #5863F8;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 0px;
+    margin-bottom: 8px;
+ }
+ .main-text1 {
+    font-family: "BPG Nino Mtavruli Bold", sans-serif;
+    font-size: 42px;
+    color: #000000;
+    font-weight: 900;
+    line-height: 52px;
+    width: 700px;
+ }
+ .blocks1 {
+    margin: 62px 0 152px;
+ }
+ .text-frame {
+    width: 352px;
+    background: #F8F8F8;
+ }
+ .left-block-frame {
+    display: inline-block;
+    width: 352px;
+    margin-right: 16px;
+ }
+ .middle-block-frame {
+    display: inline-block;
+    width: 352px;
+    margin-right: 16px;
+ }
+ .right-block-frame {
+    display: inline-block;
+    width: 352px;
+ }
+ .header1 {
+    font-family: 'ALK Rex Bold';
+    color: #5863F8;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-top: 15px;
+ }
+ .header2 {
+    font-family: 'ALK Rex Bold';
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 38px;
+ }
+ .theme {
+    font-family: 'ALK Rex Bold';
+    color: #C9C6C6;
+    text-align: center;
+    font-sze: 14px;
+    line-height: 25px;
+    padding: 0 46px 23px;
+ }
